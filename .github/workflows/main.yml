@@ -9,4 +9,4 @@ jobs:
     - name: curl
       uses: wei/curl@master
       with:
-        args: ${{secrets.CURL_ADDRESS}}
+        args: ${{ secrets.CURL_ADDRESS }}
